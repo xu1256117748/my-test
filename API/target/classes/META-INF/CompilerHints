@@ -1,0 +1,10 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,com/xyk/TimeOutComparent.test1
+inline,com/xyk/TimeOutComparent.test2
+inline,com/xyk/TimeOutComparent.test3
+inline,com/xyk/TimeOutComparent.test4
+inline,com/xyk/TimeOutComparent.test5

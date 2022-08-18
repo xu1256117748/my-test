@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/API/API.iml" filepath="$PROJECT_DIR$/API/API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/EasyExcelTest/EasyExcelTest.iml" filepath="$PROJECT_DIR$/TestClass/EasyExcelTest/EasyExcelTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/FrameTest/FrameTest.iml" filepath="$PROJECT_DIR$/TestClass/FrameTest/FrameTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/HttpClientTest/HttpClientTest.iml" filepath="$PROJECT_DIR$/TestClass/HttpClientTest/HttpClientTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaInterview/JavaInterview.iml" filepath="$PROJECT_DIR$/JavaInterview/JavaInterview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCodeQuestion/LeetCodeQuestion.iml" filepath="$PROJECT_DIR$/LeetCodeQuestion/LeetCodeQuestion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniProject/MiniProject.iml" filepath="$PROJECT_DIR$/MiniProject/MiniProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/XiangXueZhiBo/Month07_Day29/Month07_Day29.iml" filepath="$PROJECT_DIR$/TestClass/XiangXueZhiBo/Month07_Day29/Month07_Day29.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/MyArrayList/MyArrayList.iml" filepath="$PROJECT_DIR$/TestClass/MyArrayList/MyArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyTest.iml" filepath="$PROJECT_DIR$/MyTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/TestClass/Proxy/Proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/SGG-redis-study/SGG-redis-study.iml" filepath="$PROJECT_DIR$/TestClass/SGG-redis-study/SGG-redis-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/SelectionSort/SelectionSort.iml" filepath="$PROJECT_DIR$/TestClass/SelectionSort/SelectionSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/SpringBootInterfaceTest/SpringBootInterfaceTest.iml" filepath="$PROJECT_DIR$/TestClass/SpringBootInterfaceTest/SpringBootInterfaceTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/StreamChainAPI/StreamChainAPI.iml" filepath="$PROJECT_DIR$/TestClass/StreamChainAPI/StreamChainAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/String_Buffer_Builder/String_Buffer_Builder.iml" filepath="$PROJECT_DIR$/TestClass/String_Buffer_Builder/String_Buffer_Builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/TXTReader/TXTReader.iml" filepath="$PROJECT_DIR$/TestClass/TXTReader/TXTReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/TestClass.iml" filepath="$PROJECT_DIR$/TestClass/TestClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/TestDateTimeHandler/TestDateTimeHandler.iml" filepath="$PROJECT_DIR$/TestClass/TestDateTimeHandler/TestDateTimeHandler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/TestGenericity/TestGenericity.iml" filepath="$PROJECT_DIR$/TestClass/TestGenericity/TestGenericity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/TestRedis/TestRedis.iml" filepath="$PROJECT_DIR$/TestClass/TestRedis/TestRedis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestClass/TestThreadPool/TestThreadPool.iml" filepath="$PROJECT_DIR$/TestClass/TestThreadPool/TestThreadPool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniProject/TimeCounter/TimeCounter.iml" filepath="$PROJECT_DIR$/MiniProject/TimeCounter/TimeCounter.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="fmath-latex-mathml-0.5">
+    <CLASSES>
+      <root url="jar://D:/JavaDevelop/localRepo/xyk/fmath/fmath-latex-mathml-0.5.jar!/" />
+      <root url="jar://D:/JavaDevelop/localRepo/xyk/fmath/fmath-mathml-1.0.jar!/" />
+      <root url="jar://D:/JavaDevelop/localRepo/xyk/fmath/fmath-mathml-java-3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

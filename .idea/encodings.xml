@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/API/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HelloWorld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaInterview/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LeetCodeQuestion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MiniProject/TimeCounter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/EasyExcelTest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/FrameTest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/HttpClientTest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/MyArrayList/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/Proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/SGG-redis-study/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/SelectionSort/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/SpringBootInterfaceTest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/StreamChainAPI/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/String_Buffer_Builder/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/String_Buffer_Builder/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/TXTReader/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/TestDateTimeHandler/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/TestDateTimeHandler/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/TestGenericity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/TestRedis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestClass/TestThreadPool/src/main/java" charset="UTF-8" />
+  </component>
+</project>
