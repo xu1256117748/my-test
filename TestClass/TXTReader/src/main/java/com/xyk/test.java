@@ -14,7 +14,7 @@ public class test {
         //百度语音已过期
 //        StringReader_BaiduAI.outMp3ToDesktopFromTxt("C:\\Users\\12561\\Desktop\\测试文件.txt", "say");
 
-        str = XykApi.getStrFromFile_Txt("C:\\Users\\12561\\Desktop\\需要朗读的文件.txt");
+        str = XykApi.FileUtils_GetStrFromFile_Txt("C:\\Users\\12561\\Desktop\\需要朗读的文件.txt");
         System.out.println(str);
 
         StringReader_System.read(str);

@@ -19,7 +19,8 @@ import java.util.List;
 @CrossOrigin
 @RequestMapping("/test")
 @Api(tags = "j")
-public class HelloWorld {        String content = "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mo stretchy=\"false\">(</mo><mn>2</mn><mo>⩽</mo><mi>x</mi><mi>n</mi><mo>⩽</mo><mn>6</mn><mo stretchy=\"false\">)</mo></math>";
+public class HelloWorld {
+    String content = "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mo stretchy=\"false\">(</mo><mn>2</mn><mo>⩽</mo><mi>x</mi><mi>n</mi><mo>⩽</mo><mn>6</mn><mo stretchy=\"false\">)</mo></math>";
 //        String path = "E:/Single工作区/export/学生错题集/pdf/test.pdf";
 //        String htmlFile = "E:\\single工作区\\export\\学生错题集\\html\\周科宇的错题集.html";
 //        String PdfFile = "E:\\single工作区\\export\\学生错题集\\pdf\\周科宇的错题集.pdf";

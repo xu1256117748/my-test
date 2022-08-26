@@ -561,9 +561,16 @@ public class XykApi {
      * @param txtFileName TXT文件的全路径名(包含路径+文件名+后缀)
      * @throws RuntimeException 读取失败会抛出运行时异常
      * */
-    public static String getStrFromFile_Txt(String txtFileName) {
+    public static String FileUtils_GetStrFromFile_Txt(String txtFileName) {
         String encoding = "gbk";
         File file = new File(txtFileName);
+        if (file.isDirectory()){
+            return "目标文件为文件夹,不是TXT文件!";
+        }
+        if(!file.exists()){
+            return "目标文件不存在!";
+        }
+
         Long filelength = file.length();
         byte[] filecontent = new byte[filelength.intValue()];
 
@@ -593,9 +600,9 @@ public class XykApi {
      * @param append 是否追加 true:在原文本后追加文本    false: 删除原文本,写入新文本
      * @param changeLine 追加文本时,是否换行(appen为false时,此参数不生效)
      * */
-    public static void writeStrToFile_Txt(String FilePathName, String content, Boolean append, Boolean changeLine )  {
-        append = Objects.isNull(append) ? true :append; // 将默认值设置为true
-        changeLine = Objects.isNull(append) ? true :changeLine; // 将默认值设置为true
+    public static void FileUtils_WriteStrToFile_Txt(String FilePathName, String content, Boolean append, Boolean changeLine )  {
+        append = Objects.isNull(append) ? true : append; // 将默认值设置为true
+        changeLine = Objects.isNull(changeLine) ? true :changeLine; // 将默认值设置为true
 
         FileOutputStream fos = null;
         BufferedWriter bw = null;
@@ -624,6 +631,36 @@ public class XykApi {
             }
         }
         System.out.println("向目标文件中写入文本成功!");
+    }
+
+    /**
+     * 计算文件/文件夹的大小( 单位:字节(byte) )
+     * 方法id [08]004
+     * @param filePathName 文件 / 文件夹 的全路径名 文件的话需要包含文件名和后缀名
+     * */
+    public static Long FileUtils_CountFileSize(String filePathName){
+        if (org.apache.commons.lang3.StringUtils.isBlank(filePathName)) return 0L;
+        File file = new File(filePathName);
+        if (!file.exists()) return 0L;
+        return countFileLength(file);
+
+    }
+
+    private static Long countFileLength(File file){
+        Long length = 0L;
+        if (file.isDirectory()){
+            File[] files = file.listFiles();
+            for(File f :files){
+                if (f.isDirectory()){
+                    length += countFileLength(f);
+                }else {
+                    length += f.length();
+                }
+            }
+            return length;
+        }else {
+            return file.length();
+        }
 
     }
 

@@ -13,9 +13,10 @@
         <module name="EasyExcelTest" />
         <module name="LeetCodeQuestion" />
         <module name="MyArrayList" />
+        <module name="TestSpring" />
         <module name="TestThreadPool" />
-        <module name="HelloWorld" />
         <module name="FrameTest" />
+        <module name="HelloWorld" />
         <module name="TestGenericity" />
         <module name="HttpClientTest" />
         <module name="TestDateTimeHandler" />
@@ -54,6 +55,7 @@
       <module name="TestDateTimeHandler" target="8" />
       <module name="TestGenericity" target="8" />
       <module name="TestRedis" target="8" />
+      <module name="TestSpring" target="1.8" />
       <module name="TestThreadPool" target="8" />
       <module name="TimeCounter" target="8" />
       <module name="TXTReader" target="8" />
@@ -88,6 +90,7 @@
       <module name="TestDateTimeHandler" options="-parameters" />
       <module name="TestGenericity" options="-parameters" />
       <module name="TestRedis" options="-parameters" />
+      <module name="TestSpring" options="-parameters" />
       <module name="TestThreadPool" options="-parameters" />
       <module name="TimeCounter" options="-parameters" />
       <module name="XiangXueZhiBo" options="-parameters" />

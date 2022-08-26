@@ -67,11 +67,121 @@ public class TestDemo_01 {
         sb.append("文本写入目标文件中成功!");
         System.out.println(sb);
     }
+    //  1.1 写到txt文件中(代码提取到工具类中)
     @Test
     public void test2(){
         String FilePathName = "C:\\Users\\12561\\Desktop\\Demo.txt";
         String content = "Hello World!";
-        XykApi.writeStrToFile_Txt(FilePathName,content,false,true);
+        XykApi.FileUtils_WriteStrToFile_Txt(FilePathName,content,true,true);
+    }
+    // 2.读取txt文件的文本
+    @Test
+    public void test3(){
+        String filePathAllName = "C:\\Users\\12561\\Desktop\\Demo.txt";
+
+        File file = new File(filePathAllName);
+        if (!file.exists()){
+            System.out.println("目标文件不存在!");
+            return;
+        }
+
+        Long length = file.length();
+        byte[] bytes = new byte[length.intValue()];
+
+        FileInputStream in = null;
+        try {
+            in = new FileInputStream(file);
+            in.read(bytes);
+            in.close();
+            String gbk = new String(bytes, "gbk");
+            System.out.println(gbk);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+    // 2.1 读取txt文件的文本(提取到api中)
+    @Test
+    public void test4(){
+        String FilePathName = "C:\\Users\\12561\\Desktop\\Demo.txt";
+        String strFromFile_txt = XykApi.FileUtils_GetStrFromFile_Txt(FilePathName);
+        System.out.println(strFromFile_txt);
+    }
+//    3.对文件夹的大小进行递归计算大小
+    @Test
+    public void test5(){
+        // 可以是文件,也可以是文件
+//        String FilePathName = "C:\\Users\\12561\\Desktop\\Demo.txt";
+        String FilePathName = "D:\\SogouInput";
+
+        File file = new File(FilePathName);
+        long fileSize = getFileSize(file);
+
+        System.out.println("length:"+fileSize);
+
+
+    }
+    //    3.对文件夹的大小进行递归计算大小(提取到工具类中)
+    @Test
+    public void test6(){
+        // 可以是文件,也可以是文件
+//        String FilePathName = "C:\\Users\\12561\\Desktop\\Demo.txt";
+        String FilePathName = "D:\\SogouInput";
+        Long aLong = XykApi.FileUtils_CountFileSize(FilePathName);
+        System.out.println(aLong);
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    private long getFileSize(File file) {
+        long length = 0;
+
+        if (!file.exists()) return length;
+
+        if (file.isDirectory()){
+            File[] files = file.listFiles();
+            for (File f : files){
+                if (f.isDirectory()){
+
+                    length += getFileSize(f);
+                }else {
+                    length += f.length();
+                }
+
+            }
+            return length;
+        }else {
+            return file.length();
+        }
+
+    }
 }
