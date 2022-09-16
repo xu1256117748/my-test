@@ -14,6 +14,7 @@
         <module name="LeetCodeQuestion" />
         <module name="MyArrayList" />
         <module name="TestSpring" />
+        <module name="ScoreCounter" />
         <module name="TestThreadPool" />
         <module name="FrameTest" />
         <module name="HelloWorld" />
@@ -43,8 +44,10 @@
       <module name="MiniProject" target="8" />
       <module name="Month_07_Day_29" target="1.8" />
       <module name="MyArrayList" target="8" />
+      <module name="MyProject" target="8" />
       <module name="MyTest" target="1.8" />
       <module name="Proxy" target="8" />
+      <module name="ScoreCounter" target="8" />
       <module name="SelectionSort" target="8" />
       <module name="SGG-redis-study" target="1.8" />
       <module name="SpringBootInterfaceTest" target="1.8" />
@@ -77,9 +80,11 @@
       <module name="MiniProject" options="-parameters" />
       <module name="Month_07_Day_29" options="-parameters" />
       <module name="MyArrayList" options="-parameters" />
+      <module name="MyProject" options="-parameters" />
       <module name="MyTest" options="-parameters" />
       <module name="Proxy" options="-parameters" />
       <module name="SGG-redis-study" options="-parameters" />
+      <module name="ScoreCounter" options="-parameters" />
       <module name="SelectionSort" options="-parameters" />
       <module name="SpringBootInterfaceTest" options="-parameters" />
       <module name="StreamChainAPI" options="-parameters" />

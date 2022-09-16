@@ -30,12 +30,14 @@
         <option value="$PROJECT_DIR$/TestClass/EasyExcelTest/pom.xml" />
         <option value="$PROJECT_DIR$/TestClass/SGG-redis-study/pom.xml" />
         <option value="$PROJECT_DIR$/TestClass/TestSpring/pom.xml" />
+        <option value="$PROJECT_DIR$/MyProject/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/FrameTest/pom.xml" />
         <option value="$PROJECT_DIR$/HttpClient/pom.xml" />
+        <option value="$PROJECT_DIR$/MiniProject/pom.xml" />
         <option value="$PROJECT_DIR$/TimeCounter/pom.xml" />
       </set>
     </option>

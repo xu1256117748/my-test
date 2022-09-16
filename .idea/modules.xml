@@ -9,12 +9,13 @@
       <module fileurl="file://$PROJECT_DIR$/TestClass/HttpClientTest/HttpClientTest.iml" filepath="$PROJECT_DIR$/TestClass/HttpClientTest/HttpClientTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaInterview/JavaInterview.iml" filepath="$PROJECT_DIR$/JavaInterview/JavaInterview.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCodeQuestion/LeetCodeQuestion.iml" filepath="$PROJECT_DIR$/LeetCodeQuestion/LeetCodeQuestion.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MiniProject/MiniProject.iml" filepath="$PROJECT_DIR$/MiniProject/MiniProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestClass/XiangXueZhiBo/Month07_Day29/Month07_Day29.iml" filepath="$PROJECT_DIR$/TestClass/XiangXueZhiBo/Month07_Day29/Month07_Day29.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestClass/MyArrayList/MyArrayList.iml" filepath="$PROJECT_DIR$/TestClass/MyArrayList/MyArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyProject/MyProject.iml" filepath="$PROJECT_DIR$/MyProject/MyProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyTest.iml" filepath="$PROJECT_DIR$/MyTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestClass/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/TestClass/Proxy/Proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestClass/SGG-redis-study/SGG-redis-study.iml" filepath="$PROJECT_DIR$/TestClass/SGG-redis-study/SGG-redis-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyProject/ScoreCounter/ScoreCounter.iml" filepath="$PROJECT_DIR$/MyProject/ScoreCounter/ScoreCounter.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestClass/SelectionSort/SelectionSort.iml" filepath="$PROJECT_DIR$/TestClass/SelectionSort/SelectionSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestClass/SpringBootInterfaceTest/SpringBootInterfaceTest.iml" filepath="$PROJECT_DIR$/TestClass/SpringBootInterfaceTest/SpringBootInterfaceTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestClass/StreamChainAPI/StreamChainAPI.iml" filepath="$PROJECT_DIR$/TestClass/StreamChainAPI/StreamChainAPI.iml" />
@@ -26,7 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/TestClass/TestRedis/TestRedis.iml" filepath="$PROJECT_DIR$/TestClass/TestRedis/TestRedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestClass/TestSpring/TestSpring.iml" filepath="$PROJECT_DIR$/TestClass/TestSpring/TestSpring.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestClass/TestThreadPool/TestThreadPool.iml" filepath="$PROJECT_DIR$/TestClass/TestThreadPool/TestThreadPool.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MiniProject/TimeCounter/TimeCounter.iml" filepath="$PROJECT_DIR$/MiniProject/TimeCounter/TimeCounter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyProject/TimeCounter/TimeCounter.iml" filepath="$PROJECT_DIR$/MyProject/TimeCounter/TimeCounter.iml" />
     </modules>
   </component>
 </project>

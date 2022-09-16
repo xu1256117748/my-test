@@ -254,6 +254,18 @@ public class XykApi {
     }
 
     /**
+     * 打印二维数组
+     * @param array 二维数组
+     * */
+    public static void print2VArray(int[][] array){
+        if (array == null) return;
+        for (int i = 0; i < array.length; i++){
+            System.out.println(Arrays.toString(array[i]));
+        }
+    }
+
+
+    /**
      * [实体类] 相关的api方法 统一以 BeanUtils_ 开头命名 方法id以 [05] 开始表示
      * */
 

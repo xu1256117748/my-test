@@ -9,6 +9,8 @@
         <module>MiniProject</module>
         <module>LeetCodeQuestion</module>
         <module>JavaInterview</module>
+        <module>MyProject</module>
+        <module>ScoreCounter</module>
         <!--        <module>TestClass/HttpClientTest</module>-->
 
 

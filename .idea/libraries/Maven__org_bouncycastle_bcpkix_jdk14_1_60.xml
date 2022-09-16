@@ -1,13 +1,13 @@
 <component name="libraryTable">
-  <library name="Maven: org.bouncycastle:bcpkix-jdk14:1.60">
+  <library name="Maven: net.bytebuddy:byte-buddy:1.12.13">
     <CLASSES>
-      <root url="jar://D:/JavaDevelop/localRepo-MyTest/org/bouncycastle/bcpkix-jdk14/1.60/bcpkix-jdk14-1.60.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.12.13/byte-buddy-1.12.13.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://D:/JavaDevelop/localRepo-MyTest/org/bouncycastle/bcpkix-jdk14/1.60/bcpkix-jdk14-1.60-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.12.13/byte-buddy-1.12.13-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://D:/JavaDevelop/localRepo-MyTest/org/bouncycastle/bcpkix-jdk14/1.60/bcpkix-jdk14-1.60-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.12.13/byte-buddy-1.12.13-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
