@@ -16,31 +16,39 @@ public class Answer001 {
 
     @Test
     public void answer(){
-//        // 生成随机数
-//        int size=7;
-//        Integer[] ints = new Integer[size];
-//        for (int i=0; i<ints.length; i++){
-//            ints[i]=new Random().nextInt(21);
-//        }
-//        System.out.println("随机数组:"+Arrays.toString(ints));
 
+        // 求最小值一
         int num1=new Random().nextInt(21);
         int num2=new Random().nextInt(21);
         Integer min = min(num1,num2);
         System.out.println("最小数为:"+min);
 
-
+        // 判断素数一
         int num3 = new Random().nextInt(300);
         boolean prime = isPrime(num3);
         System.out.println(num3+(prime==true?"是":"不是")+"素数");
 
+//
+//        // 求最小值二
+//        // 生成随机数
+//        int size=50;
+//        Integer[] ints = new Integer[size];
+//        for (int i=0; i<ints.length; i++){
+//            ints[i]=new Random().nextInt(21);
+//        }
+//        System.out.println("随机数组:"+Arrays.toString(ints));
+//        Integer min2 = min2(ints);
+//        System.out.println("最小数为:"+min2);
+//
+//
+//        // 判断素数二
 //        int num4 = new Random().nextInt(300);
 //        Boolean prime2 = (Boolean) isPrime2(num4)[0];
 //        System.out.print(num4+(prime2==true?"是":"不是")+"素数");
 //
 //        if (!prime2){
 //            Integer n = (Integer) isPrime2(num4)[1];
-//            System.out.println(",可以被"+n+"整除,结果为:"+(num4/n));
+//            System.out.println(",可以被 "+n+" 整除,结果为 "+(num4/n));
 //        }else{
 //            System.out.println();
 //        }
