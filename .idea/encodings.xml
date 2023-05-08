@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/API/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BaiDuAnswer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HelloWorld/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JavaInterview/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LeetCodeQuestion/src/main/java" charset="UTF-8" />

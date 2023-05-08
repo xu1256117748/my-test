@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/API/API.iml" filepath="$PROJECT_DIR$/API/API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BaiDuAnswer/BaiDuAnswer.iml" filepath="$PROJECT_DIR$/BaiDuAnswer/BaiDuAnswer.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestClass/EasyExcelTest/EasyExcelTest.iml" filepath="$PROJECT_DIR$/TestClass/EasyExcelTest/EasyExcelTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestClass/FrameTest/FrameTest.iml" filepath="$PROJECT_DIR$/TestClass/FrameTest/FrameTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />

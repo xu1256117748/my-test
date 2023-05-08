@@ -12,6 +12,7 @@
         <module name="SpringBootInterfaceTest" />
         <module name="EasyExcelTest" />
         <module name="LeetCodeQuestion" />
+        <module name="BaiDuAnswer" />
         <module name="MyArrayList" />
         <module name="TestSpring" />
         <module name="ScoreCounter" />
@@ -33,6 +34,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="API" target="8" />
+      <module name="BaiDuAnswer" target="8" />
       <module name="day07_29" target="1.8" />
       <module name="EasyExcelTest" target="1.8" />
       <module name="FrameTest" target="8" />
@@ -70,6 +72,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="API" options="-parameters" />
+      <module name="BaiDuAnswer" options="-parameters" />
       <module name="EasyExcelTest" options="-parameters" />
       <module name="FrameTest" options="-parameters" />
       <module name="HelloWorld" options="-parameters" />
