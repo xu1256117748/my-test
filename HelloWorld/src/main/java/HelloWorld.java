@@ -6,6 +6,8 @@ import org.junit.Test;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.util.StringUtils;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -114,9 +116,61 @@ public class HelloWorld {
 //        i += (3+5);
 //        System.out.println(i);
 
+//        // 模拟一个长度为10的数组
+//        int[] ints = new int[10];
+//        for (int i = 0; i < ints.length; i++) {
+//            ints[i] = 40 + new Random().nextInt(61);
+//        }
+//        System.out.println("随机数组为:" + Arrays.toString(ints));
+//        // 评定等级
+//        char[] result = new char[ints.length];
+//        for (int i = 0; i < ints.length; i++) {
+//            int score = ints[i];
+//            char level;
+//            if (score >= 90) {
+//                level = 'A';
+//            } else if (80 <= score && score < 90) {
+//                level = 'B';
+//            } else if (70 <= score && score < 80) {
+//                level = 'C';
+//            } else if (60 <= score && score < 70) {
+//                level = 'D';
+//            } else {
+//                level = 'E';
+//            }
+//            result[i] = level;
+//        }
+//        System.out.println("对应等级为:" + Arrays.toString(result));
+
+
+        /**
+         * 冒泡排序
+         * a、冒泡排序，是通过每一次遍历获取最大/最小值
+         * b、将最大值/最小值放在尾部/头部
+         * c、然后除开最大值/最小值，剩下的数据在进行遍历获取最大/最小值
+         * d、代码实现:
+         */
+        // 模拟浮点数集合
+        int size = 10;
+        BigDecimal[] randomArray = new BigDecimal[size];
+        for (int i = 0; i < size;i++){
+            //BigDecimal在运行时虽然会比基础类型略慢,但能够完全控制计算精度
+            randomArray[i]= new BigDecimal(new Random().nextInt(101))
+                            .divide(new BigDecimal(8), 3,RoundingMode.HALF_UP);
+        }
+        System.out.println("随机浮点数:"+Arrays.toString(randomArray));
+        // 冒泡排序
+        BigDecimal mid;
+        for (int i=0;i<randomArray.length-1;i++){
+            for (int j  = 0; j  < randomArray.length-i-1; j ++) {
+                if (randomArray[j].compareTo(randomArray[j+1])==1){
+                    mid=randomArray[j];
+                    randomArray[j]=randomArray[j+1];
+                    randomArray[j+1]=mid;
+                }
+            }
+            System.out.println("第"+(i+1)+"轮排序:"+Arrays.toString(randomArray));
+        }
+
     }
-
-
-
-
 }
