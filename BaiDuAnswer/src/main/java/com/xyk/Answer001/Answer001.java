@@ -82,7 +82,9 @@ public class Answer001 {
     /**
      * 判断一个数是不是素数
      * @param num 要判断是否是素数的数字
-     * @return result 返回一个Object[],下标0存储这个数字是否是数字,下标1存储这个数字为什么不是素数(因为能被整个数字整除)
+     * @return result 返回一个Object[],
+     *                 result[0] 数值类型:Boolean 下标0存储这个数字是否是素数B
+     *                 result[1] 数值类型:int 下标1存储这个数字为什么不是素数(因为能被整个数字整除)
      */
     public static Object[] isPrime2(int num) {
         Object[] result = new Object[2];
