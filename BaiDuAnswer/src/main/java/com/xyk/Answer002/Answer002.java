@@ -1,5 +1,7 @@
 package com.xyk.Answer002;
 
+import org.junit.Test;
+
 /**
  * @author 徐亚奎
  * @email 1256117748@qq.com
@@ -8,4 +10,8 @@ package com.xyk.Answer002;
  */
 public class Answer002 {
 
+    @Test
+    public void testAnswer(){
+
+    }
 }
