@@ -8,7 +8,7 @@ import java.time.format.DateTimeFormatter;
  */
 public class Test {
     // 将文本类型的时间转化为localdatetime类型
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void test01(){
         String str = "2021-03-05 21:05:08";
         String format =  "yyyy-MM-dd HH:mm:ss";
@@ -17,7 +17,7 @@ public class Test {
         System.out.println(parse);
     }
     // 将localdatetime类型的时间转化为文本类型(实现方式一)
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void  test02(){
         long start = System.currentTimeMillis();
         LocalDateTime now = LocalDateTime.now();
@@ -28,7 +28,7 @@ public class Test {
         System.out.println("耗时:"+(end-start)+"毫秒"); // 50毫秒
     }
     // 将localdatetime类型的时间转化为文本类型(实现方式二)
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void  test03(){
         long start = System.currentTimeMillis();
         LocalDateTime now = LocalDateTime.now();

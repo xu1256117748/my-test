@@ -2,7 +2,6 @@ import com.xyk.XykApi;
 import com.xyk.pojo.User;
 import jdk.nashorn.internal.runtime.regexp.joni.Regex;
 import org.apache.commons.collections.CollectionUtils;
-import org.junit.Test;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.util.StringUtils;
 

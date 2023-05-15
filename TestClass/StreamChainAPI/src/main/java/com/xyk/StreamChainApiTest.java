@@ -3,8 +3,9 @@ package com.xyk;
 import com.xyk.pojo.StaticResource;
 import com.xyk.pojo.User;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Before;
-import org.junit.Test;
+import org.aspectj.lang.annotation.Before;
+import org.junit.jupiter.api.Test;
+
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -53,8 +54,7 @@ import java.util.stream.Stream;
 @Slf4j
 public class StreamChainApiTest {
     private static List<User> userList = null;
-    @Before
-    public  void before(){
+    static {
         userList = StaticResource.userList;
 //        for (int i =0;i<20;i++){
 //            userList.addAll(userList);

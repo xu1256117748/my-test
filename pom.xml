@@ -6,11 +6,9 @@
         <module>API</module>
         <module>TestClass</module>
         <module>HelloWorld</module>
-        <module>MiniProject</module>
         <module>LeetCodeQuestion</module>
         <module>JavaInterview</module>
         <module>MyProject</module>
-        <module>ScoreCounter</module>
         <module>BaiDuAnswer</module>
         <!--        <module>TestClass/HttpClientTest</module>-->
 
@@ -75,6 +73,14 @@
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
             <version>0.9.1</version>
+        </dependency>
+
+<!--        单元测试-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8.2</version>
+            <scope>test</scope>
         </dependency>
 
 

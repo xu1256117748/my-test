@@ -4,7 +4,6 @@ import com.xyk.util.HttpClientUtil;
 import com.xyk.util.JsonUtils;
 import com.xyk.vo.JsonResponse;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Test;
 import sun.net.www.http.HttpClient;
 
 import java.util.List;

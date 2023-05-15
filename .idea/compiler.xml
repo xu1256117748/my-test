@@ -34,7 +34,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="API" target="8" />
-      <module name="BaiDuAnswer" target="8" />
+      <module name="BaiDuAnswer" target="1.8" />
       <module name="day07_29" target="1.8" />
       <module name="EasyExcelTest" target="1.8" />
       <module name="FrameTest" target="8" />
@@ -50,18 +50,18 @@
       <module name="MyTest" target="1.8" />
       <module name="Proxy" target="8" />
       <module name="ScoreCounter" target="8" />
-      <module name="SelectionSort" target="8" />
+      <module name="SelectionSort" target="1.8" />
       <module name="SGG-redis-study" target="1.8" />
       <module name="SpringBootInterfaceTest" target="1.8" />
-      <module name="StreamChainAPI" target="8" />
-      <module name="String_Buffer_Builder" target="8" />
+      <module name="StreamChainAPI" target="1.8" />
+      <module name="String_Buffer_Builder" target="1.8" />
       <module name="StringBuffer_Builder" target="8" />
-      <module name="TestClass" target="8" />
-      <module name="TestDateTimeHandler" target="8" />
-      <module name="TestGenericity" target="8" />
+      <module name="TestClass" target="1.8" />
+      <module name="TestDateTimeHandler" target="1.8" />
+      <module name="TestGenericity" target="1.8" />
       <module name="TestRedis" target="8" />
       <module name="TestSpring" target="1.8" />
-      <module name="TestThreadPool" target="8" />
+      <module name="TestThreadPool" target="1.8" />
       <module name="TimeCounter" target="8" />
       <module name="TXTReader" target="8" />
       <module name="XiangXueZhiBo" target="8" />

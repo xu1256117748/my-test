@@ -3,7 +3,7 @@ package com.xyk;
 import com.xyk.common.Cat;
 import com.xyk.pojo.User;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
